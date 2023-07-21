@@ -2,7 +2,7 @@ var through = require('through')
 var compiler = require('./lib/compiler')
 
 module.exports = function vueify (file, options) {
-  console.log('====================================================================================\n\n\n\n\n\n')
+  console.log('====================================================================================\n\n\n\n\n\n');
   if (!/.vue$/.test(file)) {
     return through()
   }
